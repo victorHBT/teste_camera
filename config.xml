@@ -2,12 +2,12 @@
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android = "http://schemas.android.com/apk/res/android"
-		id        = "com.tavares.cameraplugin"
+		id        = "com.tavares.cordova.camera"
 		versionCode=""
 		version   = "1.0.0">
-		<name>CameraPlugin		</name>
-		<description>teste plugin camera cordova/phonegap		</description>
-		<author href="http://phonegap.com" email="victorhugo.tavares@hotmail.com">victor		</author>
+		<name>PluginCamera		</name>
+		<description>teste plugin camera cordova		</description>
+		<author href="http://phonegap.com" email="victorhugo.tavares@hotmail.com">victor hugo		</author>
 		<feature name="http://api.phonegap.com/1.0/battery" />
 		<feature name="http://api.phonegap.com/1.0/camera" />
 		<feature name="http://api.phonegap.com/1.0/contacts" />
@@ -42,11 +42,11 @@
 		<preference name="fullscreen" value="true" />
 		<preference name="target-device" value="universal" />
 		<preference name="webviewbounce" value="true" />
-		<preference name="prerendered-icon" value="false" />
-		<preference name="stay-in-webview" value="true" />
-		<preference name="ios-statusbarstyle" value="default" />
+		<preference name="prerendered-icon" value="true" />
+		<preference name="stay-in-webview" value="false" />
+		<preference name="ios-statusbarstyle" value="black-opaque" />
 		<preference name="detect-data-types" value="true" />
-		<preference name="exit-on-suspend" value="true" />
+		<preference name="exit-on-suspend" value="false" />
 		<preference name="show-splash-screen-spinner" value="true" />
 		<preference name="auto-hide-splash-screen" value="true" />
 		<preference name="FadeSplashScreen " value="true" />
@@ -69,10 +69,10 @@
 		<preference name="LoadingDialog" value="," />
 		<preference name="LoadUrlTimeoutValue" value="null" />
 		<platform name="ios">
-		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/ios/icon.png" width="57" height="57" />
-		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/ios/icon-72@2x.png" width="144" height="144" />
-		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/ios/icon-72.png" width="72" height="72" />
-		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/ios/icon@2x.png" width="114" height="114" />
+		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\teste_camera\config.xmlwww/res/icon/ios/icon-57.png" width="57" height="57" />
+		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\teste_camera\config.xmlwww/res/icon/ios/icon-72-2x.png" width="144" height="144" />
+		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\teste_camera\config.xmlwww/res/icon/ios/icon-72.png" width="72" height="72" />
+		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\teste_camera\config.xmlwww/res/icon/ios/icon-57-2x.png" width="114" height="114" />
 		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/ios/icon-50.png" width="50" height="50" />
 		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/ios/icon-50@2x.png" width="100" height="100" />
 		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/ios/icon-60.png" width="60" height="60" />
@@ -97,10 +97,10 @@
 		<splash src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" height="1536" /> 
 		</platform>
 		<platform name="android">
-		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/android/drawable-ldpi-icon.png" qualifier="ldpi" />
-		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/android/drawable-mdpi-icon.png" qualifier="mdpi" />
-		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/android/drawable-hdpi-icon.png" qualifier="hdpi" />
-		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/android/drawable-xhdpi-icon.png" qualifier="xhdpi" />
+		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\teste_camera\config.xmlwww/res/icon/android/icon-36-ldpi.png" qualifier="ldpi" />
+		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\teste_camera\config.xmlwww/res/icon/android/icon-48-mdpi.png" qualifier="mdpi" />
+		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\teste_camera\config.xmlwww/res/icon/android/icon-72-hdpi.png" qualifier="hdpi" />
+		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\teste_camera\config.xmlwww/res/icon/android/icon-96-xhdpi.png" qualifier="xhdpi" />
 		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/android/drawable-xxhdpi-icon.png" qualifier="xxhdpi" />
 		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/icon/android/drawable-xxxhdpi-icon.png" qualifier="xxxhdpi" />
 		<splash src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/screen/android/drawable-port-ldpi-screen.png" qualifier="port-ldpi" />
@@ -117,6 +117,7 @@
 		<splash src="C:\Users\Brasilia\Documents\Cordova_testes\CameraPlugin\teste_camera\config.xmlwww/res/screen/android/drawable-land-xxxhdpi-screen.png" qualifier="land-xxxhdpi" />
 		</platform>
 		<platform name="winphone">
+		<icon src="C:\Users\Brasilia\Documents\Cordova_testes\teste_camera\config.xmlwww/res/icon/windows-phone/icon-173-tile.png" />
 		</platform>
 		 <icon src="icon.png" />
 		<allow-intent href="http://*/*" />
