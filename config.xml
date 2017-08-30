@@ -60,7 +60,7 @@
 		<preference name="HideKeyboardFormAccessoryBar" value="true" />
 		<preference name="SuppressesIncrementalRendering" value="false" />
 		<preference name="windows-identity-name" value="" />
-		<preference name="android-minSdkVersion" value="14" />
+		<preference name="android-minSdkVersion" value="7" />
 		<preference name="android-installLocation" value="auto" />
 		<preference name="SplashScreenDelay" value="2000" />
 		<preference name="ErrorUrl" value="null" />
