@@ -6,7 +6,7 @@
 		versionCode=""
 		version   = "1.0.0">
 		<name>CameraPlugin		</name>
-		<description>teste plugin camera cordova/phonegap		</description>
+		<description>teste plugin camera cordova_phonegap		</description>
 		<author href="http://phonegap.com" email="victorhugo.tavares@hotmail.com">victor		</author>
 		<feature name="http://api.phonegap.com/1.0/battery" />
 		<feature name="http://api.phonegap.com/1.0/camera" />
