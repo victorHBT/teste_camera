@@ -5,9 +5,15 @@
 		id        = "com.tavares.cordova.camera"
 		versionCode=""
 		version   = "1.0.0">
+<<<<<<< HEAD
 		<name>PluginCamera		</name>
 		<description>teste plugin camera cordova		</description>
 		<author href="http://phonegap.com" email="victorhugo.tavares@hotmail.com">victor hugo		</author>
+=======
+		<name>CameraPlugin		</name>
+		<description>teste plugin camera cordova_phonegap		</description>
+		<author href="http://phonegap.com" email="victorhugo.tavares@hotmail.com">victor		</author>
+>>>>>>> origin/master
 		<feature name="http://api.phonegap.com/1.0/battery" />
 		<feature name="http://api.phonegap.com/1.0/camera" />
 		<feature name="http://api.phonegap.com/1.0/contacts" />
